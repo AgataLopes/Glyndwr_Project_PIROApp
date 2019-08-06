@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Depression"
+    tools:showIn="@layout/app_bar_depression">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreTxt"
+            android:layout_alignParentEnd="true"
+            android:text="0"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="@string/select_the_most_appropriated"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/question_text"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#000000"
+        android:background="@drawable/border_txt"
+        android:id="@+id/questionTxt"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back_to_chat"
+        android:background="@drawable/quit_btn"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/backChat"/>
+
+</LinearLayout>

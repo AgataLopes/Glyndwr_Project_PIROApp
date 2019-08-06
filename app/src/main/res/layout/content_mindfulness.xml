@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Mindfulness"
+    tools:showIn="@layout/app_bar_mindfulness">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textExercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Select Your Mindful Exercise"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifimg"
+                android:layout_width="276dp"
+                android:layout_height="310dp"
+                android:layout_below="@+id/textExercise"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/excBtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gifimg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn1"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn2"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn3"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn4"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn5"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn6"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn7"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn8"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn9"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/excBtn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/excBtn9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/mind_btn10"
+                android:textColor="#fff" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

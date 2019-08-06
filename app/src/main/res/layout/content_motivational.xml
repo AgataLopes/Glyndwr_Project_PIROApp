@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Motivational"
+    tools:showIn="@layout/app_bar_motivational">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/rand_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/rand_mot_quote"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/imgRnd"
+            android:layout_width="349dp"
+            android:layout_height="410dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:baselineAlignBottom="false" />
+
+        <Button
+            android:id="@+id/randomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_random_quote"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_shape"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:focusable="true" />
+        <Button
+            android:id="@+id/galleryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_gallery"
+            android:layout_gravity="center"
+            android:background="@drawable/quit_btn"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+</RelativeLayout>
